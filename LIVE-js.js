@@ -14,4 +14,14 @@ const scriptures = [
   
   // Show one immediately
   newScripture();
-  
+
+  // Image page
+
+  // (Optional) Simple popup on clicking images
+const images = document.querySelectorAll('.image-card img');
+
+images.forEach(img => {
+  img.addEventListener('click', () => {
+    alert('You clicked on: ' + img.alt);
+  });
+});
