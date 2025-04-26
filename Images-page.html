@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farewell</title>
+  <link rel="stylesheet" href="LIVE-style.css">
+</head>
+<body>
+  <header class="header-image">
+    <div class="logo">
+      <h1 class="h1">Images</h1>
+    </div>
+    <nav id="nav-links" class="nav-links">
+      <a class="a" href="LIVE.html">Back</a>
+      <a class="a2" href="https://nkogallardo.github.io/Personal-website/my%20web.html">Creater</a>
+    </nav>
+  </header>
+  <section class="main-image">
+    <a class="image-card" href="images/download.png" download>
+      <img src="images/download.png" alt="W3Schools">
+    </a>
+    
+    <a class="image-card" href="images/download.png" download>
+      <img src="images/download.png" alt="">
+    </a>
+    <a class="image-card" href="images/download.png" download>
+      <img src="images/download.png" alt="">
+    </a>
+    <a class="image-card" href="images/download.png" download>
+      <img src="images/download.png" alt="">
+    </a>
+    <a class="image-card" href="images/download.png" download>
+      <img src="images/download.png" alt="">
+    </a>
+    <a class="image-card" href="images/download.png" download>
+      <img src="images/download.png" alt="">
+    </a>
+    <a class="image-card" href="images/download.png" download>
+      <img src="images/download.png" alt="">
+    </a>
+    <a class="image-card" href="images/download.png" download>
+      <img src="images/download.png" alt="">
+    </a>
+    <a class="image-card" href="images/download.png" download>
+      <img src="images/download.png" alt="">
+    </a>
+  </section>
+
+  <script src="LIVE-js.js"></script>
+</body>
+<script>
+   // (Optional) Simple popup on clicking images
+const images = document.querySelectorAll('.image-card img');
+
+images.forEach(img => {
+  img.addEventListener('click', () => {
+    alert('You clicked on: ' + img.alt);
+  });
+});
+
+</script>
+</html>
